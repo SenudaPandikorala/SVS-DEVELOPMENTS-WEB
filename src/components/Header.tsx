@@ -31,8 +31,8 @@ const Header = () => {
               <span className="text-background font-bold text-lg">S</span>
             </div>
             <div>
-              <h1 className="text-xl font-playfair font-bold text-foreground">SVS Holding</h1>
-              <p className="text-xs text-muted-foreground">Construction Excellence</p>
+              <h1 className="text-xl font-playfair font-bold text-foreground">SVS Developments</h1>
+              <p className="text-xs text-muted-foreground">Strategic Expertise for Your Vision</p>
             </div>
           </div>
 
@@ -53,7 +53,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span>+1 (555) 123-4567</span>
+              <span>+94 71 7181 999 / +94 11 2701 329</span>
             </div>
             <Button 
               onClick={() => scrollToSection('#contact')}
@@ -88,7 +88,7 @@ const Header = () => {
               <div className="pt-4 border-t border-border/50">
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-4">
                   <Phone className="w-4 h-4" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+94 71 7181 999 / +94 11 2701 329</span>
                 </div>
                 <Button 
                   onClick={() => scrollToSection('#contact')}

@@ -12,9 +12,9 @@ const Hero = () => {
   };
 
   const stats = [
-    { icon: Building2, label: 'Projects Completed', value: '500+' },
-    { icon: Users, label: 'Happy Clients', value: '300+' },
-    { icon: Award, label: 'Years Experience', value: '15+' },
+    { icon: Building2, label: 'Projects Completed', value: '10+' },
+    { icon: Users, label: 'Happy Clients', value: '50+' },
+    { icon: Award, label: 'Years Experience', value: '25+' },
   ];
 
   return (
@@ -35,15 +35,13 @@ const Hero = () => {
           <div className="space-y-8 animate-slide-up">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-playfair font-bold leading-tight">
-                Building Your
-                <span className="text-gradient block">Dreams</span>
-                into Reality
+                Your Partner for a 
+                <span className="text-gradient block">Seamless project</span>
+                journey
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                SVS Holding delivers exceptional construction and engineering solutions. 
-                From residential homes to commercial complexes, we provide expert guidance, 
-                quality supervision, and innovative designs.
-              </p>
+              SVS provides a range of professional services for residential and commercial properties. We offer expert guidance and detailed technical evaluations to help you make informed decisions, protect your investment, and achieve complete peace of mind.
+               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -82,13 +80,14 @@ const Hero = () => {
           {/* Image/Visual Element */}
           <div className="relative lg:block hidden">
             <div className="glass-card rounded-2xl p-8 space-y-6">
-              <h3 className="text-2xl font-playfair font-semibold text-gold">Why Choose SVS Holding?</h3>
+              <h3 className="text-2xl font-playfair font-semibold text-gold">Why Choose SVS Developments?</h3>
               <div className="space-y-4">
                 {[
-                  'Expert technical consultation',
-                  'Quality construction supervision',
-                  'Competitive pricing models',
-                  'Professional engineering team'
+                  'Sri Lanka\'s only provider of comprehensive building and land inspections',
+                  'Consultancy for Seamless Project Delivery',
+                  'Cost-Effective Solutions',
+                  'Expert Guidance for On-Time Project Delivery',
+                  
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-gold rounded-full"></div>

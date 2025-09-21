@@ -37,34 +37,40 @@ const Services = () => {
   const concessionalServices = [
     {
       icon: Building,
-      title: 'Low Cost Construction Models',
+      title: 'Inspection of Land or Building',
+      description: 'Affordable construction models for your house or office projects without compromising quality',
+      category: 'Cost-Effective'
+    },
+    {
+      icon: Building,
+      title: 'Inspection of ongoing Construction',
       description: 'Affordable construction models for your house or office projects without compromising quality',
       category: 'Cost-Effective'
     },
     {
       icon: FileText,
-      title: 'BOQ Preparation',
+      title: 'Plan and BOQ Preparation',
       description: 'Detailed Bill of Quantities preparation for accurate project cost estimation',
       category: 'Documentation'
     },
-    {
-      icon: Shield,
-      title: 'Construction Supervision',
-      description: 'Professional supervision by qualified engineers, technical officers, and quantity surveyors',
-      category: 'Quality Assurance'
-    },
+    // {
+    //   icon: Shield,
+    //   title: 'Construction Supervision',
+    //   description: 'Professional supervision by qualified engineers, technical officers, and quantity surveyors',
+    //   category: 'Quality Assurance'
+    // },
     {
       icon: MapPin,
-      title: 'Land Development Reports',
+      title: 'Feasibility Study reports',
       description: 'Comprehensive reports on your selected land for development potential and feasibility',
       category: 'Site Analysis'
     },
-    {
-      icon: Home,
-      title: 'Settlement Technical Advice',
-      description: 'Expert technical guidance for any settlement issues related to your house or office',
-      category: 'Problem Solving'
-    }
+    // {
+    //   icon: Home,
+    //   title: 'Settlement Technical Advice',
+    //   description: 'Expert technical guidance for any settlement issues related to your house or office',
+    //   category: 'Problem Solving'
+    // }
   ];
 
   return (

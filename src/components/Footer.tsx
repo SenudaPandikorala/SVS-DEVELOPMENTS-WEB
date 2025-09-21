@@ -51,7 +51,7 @@ const Footer = () => {
                   <span className="text-background font-bold text-lg">S</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-playfair font-bold text-foreground">SVS Holding</h3>
+                  <h3 className="text-xl font-playfair font-bold text-foreground">SVS Developments</h3>
                   <p className="text-sm text-muted-foreground">Construction Excellence</p>
                 </div>
               </div>
@@ -65,11 +65,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-sm">
                 <Phone className="w-4 h-4 text-gold" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">+94 71 7181 999 / +94 11 2701 329</span>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <Mail className="w-4 h-4 text-gold" />
-                <span className="text-muted-foreground">info@svsholding.com</span>
+                <span className="text-muted-foreground">info@Developments.com</span>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <MapPin className="w-4 h-4 text-gold" />
@@ -139,7 +139,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-muted-foreground text-sm">
-                © {currentYear} SVS Holding. All rights reserved.
+                © {currentYear} SVS Developments. All rights reserved.
               </p>
               <p className="text-muted-foreground text-xs mt-1">
                 Licensed, Bonded & Insured Construction Company

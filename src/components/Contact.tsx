@@ -30,13 +30,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      details: '+1 (555) 123-4567',
+      details: '+94 71 7181 999 / +94 11 2701 329',
       subtitle: 'Mon - Fri: 8:00 AM - 6:00 PM'
     },
     {
       icon: Mail,
       title: 'Email Us',
-      details: 'info@svsholding.com',
+      details: 'info@svsDevelopments.com',
       subtitle: 'We respond within 24 hours'
     },
     {
@@ -138,7 +138,7 @@ const Contact = () => {
 
             {/* Quick Info */}
             <div className="glass-card p-6 rounded-lg">
-              <h4 className="font-semibold text-foreground mb-4">Why Choose SVS Holding?</h4>
+              <h4 className="font-semibold text-foreground mb-4">Why Choose SVS Developments?</h4>
               <div className="space-y-3">
                 {[
                   'Free initial consultation',

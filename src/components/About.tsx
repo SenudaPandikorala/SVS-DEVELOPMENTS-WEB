@@ -8,22 +8,22 @@ const About = () => {
     {
       icon: Target,
       title: 'Our Mission',
-      description: 'To provide exceptional construction and engineering services that exceed client expectations while maintaining the highest standards of quality and professionalism.'
+      description: 'To empower our clients with expert guidance and unbiased analysis, ensuring their complete peace of mind throughout every property decision and project.'
     },
     {
       icon: Eye,
       title: 'Our Vision',
-      description: 'To be the leading construction consultancy firm, known for innovation, reliability, and delivering sustainable building solutions for communities.'
+      description: 'To be the undisputed leader in Sri Lanka\'s professional services sector, setting the gold standard for integrity and expertise in property inspections and project consultancy.'
     },
     {
       icon: Award,
       title: 'Our Values',
-      description: 'Quality, integrity, innovation, and customer satisfaction form the foundation of everything we do at SVS Holding.'
+      description: 'Quality, integrity, Client-Centricity, and customer satisfaction form the foundation of everything we do at SVS Developments.'
     },
     {
       icon: Users,
       title: 'Our Team',
-      description: 'Experienced engineers, architects, and construction professionals dedicated to bringing your vision to life with expertise and precision.'
+      description: 'Our team consists of highly qualified professionals with extensive experience in property analysis and project management. We are dedicated to providing the expert advice and unbiased assessments required to ensure your confidence and peace of mind in every decision you make'
     }
   ];
 
@@ -40,11 +40,10 @@ const About = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl lg:text-5xl font-playfair font-bold mb-6">
-            About <span className="text-gradient">SVS Holding</span>
+            About <span className="text-gradient">SVS Developments</span>
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            With over 15 years of experience in the construction industry, SVS Holding has established 
-            itself as a trusted partner for residential and commercial construction projects.
+          Leveraging over three decades of expertise in the construction industry, SVS Developments is backed by a dedicated team of qualified engineers committed to serving you. We are a trusted partner for all residential and commercial projects, providing expert guidance and unparalleled service to ensure quality, efficiency, and complete peace of mind.
           </p>
         </div>
 
@@ -54,20 +53,16 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <Badge className="bg-gold/10 text-gold border-gold/20 mb-4">
-                Construction Excellence Since 2009
+                Construction Excellence Since 2020
               </Badge>
               <h3 className="text-3xl font-playfair font-semibold mb-6 text-foreground">
-                Building Tomorrow's Infrastructure Today
+                Need an expert opinion before you buy a building or land?
               </h3>
               <p className="text-muted-foreground leading-relaxed text-lg mb-6">
-                SVS Holding specializes in providing comprehensive construction and engineering solutions. 
-                Our team of qualified engineers, architects, and construction professionals work together 
-                to deliver projects that meet the highest standards of quality, safety, and sustainability.
+               As Sri Lanka's first-ever provider of comprehensive building and land inspections, we specialize in assisting clients with their most challenging projects. Whether you are stuck due to poor project management or looking to purchase a new buidling or land for your business or residence,Our highly qualified professionals are committed to providing the expert guidance you need at every stage. We offer specialized advice to help you find the most suitable land or building for your needs and provide the expertise required to streamline your ongoing construction projects, ensuring a seamless and stress-free experience from start to finish.
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                From initial planning and design to final construction and handover, we guide our clients 
-                through every step of their construction journey, ensuring transparency, quality, and 
-                timely delivery.
+              Before you make a commitment, our team will inspect and analyze a land or building to determine its viability for purchase. We are here to help you get your project back on track and make informed decisions on a planned purchase of a new house or land.
               </p>
             </div>
 
