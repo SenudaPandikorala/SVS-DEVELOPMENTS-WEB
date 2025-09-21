@@ -120,7 +120,8 @@
     height: 100%;
     pointer-events: none;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.6;
+    overflow: hidden;
   }
 
   .floating-shapes {
@@ -134,7 +135,8 @@
     background: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--construction-orange)));
     border-radius: 50%;
     animation: float 20s infinite linear;
-    opacity: 0.1;
+    opacity: 0.08;
+    filter: blur(1px);
   }
 
   .shape:nth-child(1) {
@@ -167,6 +169,102 @@
     left: 80%;
     animation-delay: -12s;
     animation-duration: 28s;
+  }
+
+  .shape:nth-child(5) {
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    animation-delay: -15s;
+    animation-duration: 35s;
+  }
+
+  .shape:nth-child(6) {
+    width: 90px;
+    height: 90px;
+    left: 85%;
+    animation-delay: -18s;
+    animation-duration: 32s;
+  }
+
+  /* Particle System */
+  .particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .particle {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: hsl(var(--gold));
+    border-radius: 50%;
+    animation: particle-float 15s infinite linear;
+    animation-delay: var(--delay);
+    opacity: 0.3;
+  }
+
+  .particle:nth-child(odd) {
+    background: hsl(var(--construction-orange));
+  }
+
+  /* Grid Pattern */
+  .grid-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+      linear-gradient(rgba(251, 191, 36, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(251, 191, 36, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    animation: grid-move 20s infinite linear;
+  }
+
+  /* Interactive Cursor Glow */
+  .cursor-glow {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, hsl(var(--gold) / 0.05) 0%, transparent 70%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    z-index: -1;
+  }
+
+  /* Animated Lines */
+  .animated-lines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .line {
+    position: absolute;
+    background: linear-gradient(90deg, transparent, hsl(var(--gold) / 0.1), transparent);
+    height: 1px;
+    width: 100%;
+  }
+
+  .line-1 {
+    top: 20%;
+    animation: line-move-right 12s infinite linear;
+    animation-delay: -2s;
+  }
+
+  .line-2 {
+    top: 60%;
+    animation: line-move-left 15s infinite linear;
+    animation-delay: -5s;
+  }
+
+  .line-3 {
+    top: 80%;
+    animation: line-move-right 18s infinite linear;
+    animation-delay: -8s;
   }
 
   /* Hero Section */
@@ -245,6 +343,60 @@
     }
     100% {
       transform: translateY(-100px) rotate(360deg);
+    }
+  }
+
+  @keyframes particle-float {
+    0% {
+      transform: translateY(100vh) translateX(0px);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.3;
+    }
+    90% {
+      opacity: 0.3;
+    }
+    100% {
+      transform: translateY(-50px) translateX(100px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes grid-move {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(50px, 50px);
+    }
+  }
+
+  @keyframes line-move-right {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+
+  @keyframes line-move-left {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
     }
   }
 
