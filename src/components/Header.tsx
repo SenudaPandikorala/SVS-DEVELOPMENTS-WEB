@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Phone, Mail } from 'lucide-react';
+import svslogo from '../assets/ svslogo.jpeg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,9 +27,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-gold to-construction-orange rounded-lg flex items-center justify-center">
-              <span className="text-background font-bold text-lg">S</span>
+          <div className="flex items-center space-x-3">
+            <div className="w-20 h-20 flex items-center justify-center flex-shrink-0 border-none">
+              <img 
+                src={svslogo} // Use the imported image variable
+                alt="SVS Developments Logo" 
+                className="w-full h-full object-contain rounded-lg"
+              />
             </div>
             <div>
               <h1 className="text-xl font-playfair font-bold text-foreground">SVS Developments</h1>
