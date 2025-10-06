@@ -18,7 +18,7 @@ const Hero = () => {
   ];
 
   return (
-    <section id="home" className="min-h-screen flex items-center hero-gradient relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center hero-gradient relative overflow-hidden pt-16 pb-24 lg:py-0">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -26,7 +26,7 @@ const Hero = () => {
           alt="Construction and engineering excellence" 
           className="w-full h-full object-cover opacity-20"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/90 to-background/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background/70 to-background/40"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
