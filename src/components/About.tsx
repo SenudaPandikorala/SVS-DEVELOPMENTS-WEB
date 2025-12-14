@@ -67,14 +67,14 @@ const About = () => {
             </div>
 
             {/* Achievements */}
-            <div className="grid grid-cols-2 gap-6">
+            {/* <div className="grid grid-cols-2 gap-6">
               {achievements.map((achievement, index) => (
                 <div key={index} className="text-center p-4 glass-card rounded-lg">
                   <div className="text-3xl font-bold text-gold mb-2">{achievement.number}</div>
                   <div className="text-sm text-muted-foreground">{achievement.label}</div>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Right Content - Values Grid */}
