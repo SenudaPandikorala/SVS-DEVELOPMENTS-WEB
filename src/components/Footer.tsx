@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Clock, ArrowUp } from 'lucide-react';
 
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -19,16 +20,16 @@ const Footer = () => {
     { name: 'Home', href: '#home' },
     { name: 'About Us', href: '#about' },
     { name: 'Services', href: '#services' },
-    { name: 'Projects', href: '#projects' },
+    // { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
   ];
 
   const services = [
-    'New Construction Consultation',
-    'Renovation Advice',
-    'Construction Supervision',
-    'BOQ Preparation',
-    'Land Development Reports'
+    'New Construction Advice',
+    'Renovation Consultation',
+    'Inspection of Land or Building',
+    'Inspection of ongoing Construction',
+    'Feasibility Study reports'
   ];
 
   return (
@@ -47,9 +48,9 @@ const Footer = () => {
           <div className="space-y-6">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-gold to-construction-orange rounded-lg flex items-center justify-center">
+                {/* <div className="w-10 h-10 bg-gradient-to-br from-gold to-construction-orange rounded-lg flex items-center justify-center">
                   <span className="text-background font-bold text-lg">S</span>
-                </div>
+                </div> */}
                 <div>
                   <h3 className="text-xl font-playfair font-bold text-foreground">SVS Developments</h3>
                   <p className="text-sm text-muted-foreground">Construction Excellence</p>
@@ -69,15 +70,15 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <Mail className="w-4 h-4 text-gold" />
-                <span className="text-muted-foreground">info@Developments.com</span>
+                <span className="text-muted-foreground">svsdevelopments.sl@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <MapPin className="w-4 h-4 text-gold" />
-                <span className="text-muted-foreground">123 Construction Ave, Business District</span>
+                <span className="text-muted-foreground">341/1 57A Mahayaya gardens, Samanpura, Piliyandala</span>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <Clock className="w-4 h-4 text-gold" />
-                <span className="text-muted-foreground">Mon-Fri: 8AM-6PM, Sat: 9AM-4PM</span>
+                <span className="text-muted-foreground">Mon - Sun: 8:00 AM - 10:00 PM</span>
               </div>
             </div>
           </div>

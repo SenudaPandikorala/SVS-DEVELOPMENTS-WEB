@@ -337,25 +337,25 @@ const Contact = () => {
       icon: Phone,
       title: 'Call Us',
       details: '+94 71 7181 999 / +94 11 2701 329',
-      subtitle: 'Mon - Fri: 8:00 AM - 6:00 PM'
+      subtitle: 'Mon - Sun: 8:00 AM - 10:00 PM'
     },
     {
       icon: Mail,
       title: 'Email Us',
-      details: 'info@svsDevelopments.com',
+      details: 'svsdevelopments.sl@gmail.com',
       subtitle: 'We respond within 24 hours'
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      details: '123 Construction Ave',
-      subtitle: 'Business District, City 12345'
+      details: '341/1 57A Mahayaya gardens, Samanpura, Piliyandala',
+      subtitle: 'Business District, Colombo'
     },
     {
       icon: Clock,
       title: 'Business Hours',
-      details: 'Mon - Fri: 8:00 AM - 6:00 PM',
-      subtitle: 'Sat: 9:00 AM - 4:00 PM'
+      details: 'Mon - Sun: 8:00 AM - 10:00 PM'
+      // subtitle: 'Sat: 9:00 AM - 4:00 PM'
     }
   ];
 
@@ -494,9 +494,9 @@ const Contact = () => {
               <div className="space-y-3">
                 {[
                   'Free initial consultation',
-                  '15+ years of experience',
+                  '25+ years of experience',
                   'Licensed & insured professionals',
-                  'Competitive pricing',
+                  // 'Competitive pricing',
                   'Quality guarantee'
                 ].map((benefit, index) => (
                   <div key={index} className="flex items-center space-x-3">
@@ -554,7 +554,7 @@ const Contact = () => {
                         name="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        placeholder="(555) 123-4567"
+                        placeholder="+94 123-4567"
                         className="bg-background border-border"
                       />
                     </div>
@@ -601,7 +601,7 @@ const Contact = () => {
             </Card>
 
             {/* Quick Inquiry Form */}
-            <Card className="service-card">
+            {/* <Card className="service-card">
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-3">
@@ -632,7 +632,7 @@ const Contact = () => {
                   </Button>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </div>

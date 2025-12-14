@@ -53,14 +53,14 @@ const Hero = () => {
                 Our Services
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button 
+              {/* <Button 
                 size="lg"
                 variant="outline"
                 onClick={() => scrollToSection('#projects')}
                 className="border-gold text-gold hover:bg-gold hover:text-background px-8 py-6 text-lg"
               >
                 View Projects
-              </Button>
+              </Button> */}
             </div>
 
             {/* Stats */}
